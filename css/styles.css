@@ -2,6 +2,22 @@ h1, h2, h3, h4, h5, p{
    font-family: Arial, Helvetica, sans-serif; 
 }
 
-.info-background{
+.background1{
+ background-color: royalblue;
+}
+
+.background2{
    background-color: #305c9fb0;
+}
+
+.background3{
+   background-color: rgba(30, 143, 255, 0.705);
+}
+
+.center{
+   align-content: center;
+}
+
+.start{
+   align-content: flex-start;
 }
