@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/flexboxgrid.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
@@ -11,8 +12,7 @@
 <body>
 
     <!--Navbar start-->
-    
-
+  
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Navbar</a>
@@ -22,10 +22,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Page 1</a>
+                  <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Page 2</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Áreas prácticas
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="derechos-familia.html">Derechos Familia</a>
+                    <a class="dropdown-item" href="derecho-civil.html">Derecho Civil</a>
+                    <a class="dropdown-item" href="defensa-deudor.html">Defensa a deudores</a>
+                  </div>
                 </li>
             </div>
           </div>
@@ -38,53 +45,73 @@
         
         <!--Carousel start-->
           
-          <div id="carouselExampleControls" class="carousel slide chico" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/t_img_1.jpg" class="d-block w-100 image" alt="template_image_1">
-              </div>
-              <div class="carousel-item">
-                <img src="img/t_img_2.jpg" class="d-block w-100 image" alt="template_image_2">
-              </div>
-              <div class="carousel-item">
-                <img src="img/t_img_3.jpg" class="d-block w-100 image" alt="template_image_3">
-              </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/t_img_1.jpg" class="d-block w-100" alt="img1">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
+            <div class="carousel-item">
+              <img src="img/t_img_2.jpg" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/t_img_3.jpg" class="d-block w-100" alt="img3">
+            </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
         <!--Carousel ends-->
 
         <!--Content start-->
       <div class="container-fluid">
         <div class="row background1">
-          <div class="col-xs-12 center-xs start-md col-md-offset-6 col-md-6  background2">
-            <h1>Lorem Ipsum</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Fusce tempus justo quis tellus hendrerit vehicula tempus a ligula. 
-              Phasellus et ex turpis</p>
+          <div class="col-xs-12 center-xs start-md col-md-offset-7 col-md-5  background2">
+            <br>
+            <h1>SAN JUAN & ASOC. ABOGADOS</h1>
+            <p>Derecho de familia, Derecho civil y Defensa a deudores </p>
           </div>
         </div>
         
         <div class="row background3">
-          <div class="col-xs-12 center-xs start-md col-md-offset-6 col-md-6  background2">
-            <h1>Lorem Ipsum</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Fusce tempus justo quis tellus hendrerit vehicula tempus a ligula. 
-              Phasellus et ex turpis</p>
+          <div class="col-xs-12 center-xs start-md col-md-offset-7 col-md-5  background2">
+            <br>
+            <h1>Área prácticas</h1>
+            <ul>
+              <h3>Derecho de familia</h3>
+              <h3>Derecho civil</h3>
+              <h3>Defensa a deudores</h3>
+            </ul>
           </div>
         </div>
+
+        <div class="row background1">
+          <div class="center-xs ">
+            <br>
+            <h1>Contactos</h1>
+            <div class="col-xs-12 col-md-4">
+              <a href="instagram.com" title="instagram">INSTAGRAM</a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <a href="twitter.com" title="twitter">TWITTER</a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <a href="facebook.com" title="facebook">FACEBOOK</a>
+            </div>
+            <br>
+          </div>
+        </div>
+
         <!--Content ends-->
-      
       </div>
       <!--JS files-->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
