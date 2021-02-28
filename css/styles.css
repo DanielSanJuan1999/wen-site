@@ -29,3 +29,8 @@ li{
 .start{
    align-content: flex-start;
 }
+
+.boxes{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
