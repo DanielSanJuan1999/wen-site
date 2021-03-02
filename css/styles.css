@@ -1,3 +1,8 @@
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+}
+
 p{
    font-size: 18px;
 }
@@ -6,8 +11,32 @@ li{
    font-size: 18px;
 }
 
+.header{
+   padding-top: 20%;
+   padding-bottom: 20%;
+}
+
+.background-img1{
+   background-image: url(https://cdn.discordapp.com/attachments/802689159332364359/816415797760360465/img_1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.background-img2{
+   background-image: url(https://cdn.discordapp.com/attachments/802689159332364359/816415800273403926/img_2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.background-img3{
+   background-image: url(https://cdn.discordapp.com/attachments/802689159332364359/816415793439965204/img_3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
 .background1{
- background-color: royalblue;
+   color: black;
+   padding-top: 2%;
 }
 
 .background2{
@@ -31,6 +60,17 @@ li{
    margin-bottom: 10px;
 }
 
-body{
-   font-family: Arial, Helvetica, sans-serif;
+.fas{
+   font-size: 70px;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+
+.fab{
+   font-size: 30px;
+}
+
+.big{
+   width: 40%;
+   height: 40%;
 }
