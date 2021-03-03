@@ -47,6 +47,10 @@ li{
    background-color: rgba(30, 143, 255, 0.705);
 }
 
+.background4{
+   background-color: #062350;
+}
+
 .center{
    align-content: center;
 }
@@ -71,6 +75,11 @@ li{
 }
 
 .big{
-   width: 40%;
-   height: 40%;
+   width: 50%;
+   height: auto;
+}
+
+.rrss{
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
