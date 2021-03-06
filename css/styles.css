@@ -42,6 +42,7 @@ li{
 .background1{
    color: black;
    padding-top: 5%;
+   padding-bottom: 2%;
 }
 
 .background2{
@@ -80,6 +81,10 @@ li{
 }
 
 .fab{
+   font-size: 30px;
+}
+
+.far{
    font-size: 30px;
 }
 
