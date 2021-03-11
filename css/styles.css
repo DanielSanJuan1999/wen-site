@@ -89,13 +89,14 @@ li{
 }
 
 .big{
-   width: 50%;
+   padding-top: 20px;
+   width: 40%;
    height: auto;
 }
 
 .ajustado{
-   width: auto;
-   height: 45%;
+   width: 75%;
+   height: auto;
 }
 
 .rrss{
