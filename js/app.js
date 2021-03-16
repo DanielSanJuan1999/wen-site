@@ -3,4 +3,4 @@ setTimeout(function() {
     $('body')
     .removeClass('loading')
     .addClass('loaded');
-}, 3650);
+}, 2438);
