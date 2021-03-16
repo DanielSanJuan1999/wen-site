@@ -81,11 +81,11 @@ li{
 }
 
 .fab{
-   font-size: 30px;
+   font-size: 26px;
 }
 
 .far{
-   font-size: 30px;
+   font-size: 26px;
 }
 
 .big{
@@ -102,4 +102,18 @@ li{
 .rrss{
    padding-top: 20px;
    padding-bottom: 20px;
+}
+
+.btn-whatsapp {
+   display:block;
+   width:70px;
+   height:70px;
+   color: #fff;
+   position: fixed;
+   right:40px;
+   bottom:40px;
+   border-radius:50%;
+   line-height:80px;
+   text-align:center;
+   z-index:999;
 }
