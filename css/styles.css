@@ -90,7 +90,7 @@ li{
 
 .big{
    padding-top: 20px;
-   width: 40%;
+   width: 60%;
    height: auto;
 }
 
@@ -116,4 +116,13 @@ li{
    line-height:80px;
    text-align:center;
    z-index:999;
+}
+
+.btn-primary{
+   background-color: rgb(255, 107, 53);
+   border-color: rgb(255, 107, 53);
+}
+
+.contactos{
+   padding-left: 30px;
 }
