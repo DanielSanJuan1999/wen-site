@@ -39,14 +39,6 @@ li{
    background-repeat: no-repeat;
 }
 
-.background-topbar-img4{
-   background-image: url(https://cdn.discordapp.com/attachments/802689159332364359/826620410849525770/confirm_mail_top.png);
-}
-
-.background-botbar-img4{
-   background-image: url(https://cdn.discordapp.com/attachments/802689159332364359/826620445809573898/confirm_mail_bot.png);
-}
-
 .background1{
    color: black;
    padding-top: 5%;
@@ -133,10 +125,6 @@ li{
 .btn-primary{
    background-color: rgb(255, 107, 53);
    border-color: rgb(255, 107, 53);
-}
-
-.pad-inverso{
-   padding-left: -12px;
 }
 
 .contactos{
